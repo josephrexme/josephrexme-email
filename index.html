@@ -7,7 +7,9 @@
       @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
       *{ box-sizing: border-box; }
       body{
-        font-family: Arial, Verdana, Georgia
+        font-family: Arial, Verdana, Georgia;
+        font-size: 16px;
+        color: #505050;
       }
       @media screen and (-webkit-min-device-pixel-ratio: 0){
         body{
@@ -15,154 +17,86 @@
         }
       }
       a{
-        color: #b30950;
+        color: #243d6f;
         text-decoration: none !important;
-        border-bottom: solid 1px #b30950;
         padding: 1px 0;
       }
-      a img, img{
-        border: 0 !important;
-        text-decoration: none;
-        outline: none;
-        height: auto;
-        ms-interpolation-mode: bicubic;
+      h1,h2,h3,h4,h5,h6,p{ margin: 0 }
+      .section{
+        width: 98%;
+        max-width: 650px;
+        border-radius: 4px;
+        padding: 25px 20px;
+        background: #fff;
+        box-shadow: 0 2px 3px rgba(0,0,0,.1), 0 5px 10px rgba(0,0,0,.08);
       }
-      table, td{
-        border-collapse: collapse;
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-        mso-table-lspace: 0pt;
-        mso-table-rspace: 0pt;
+      .logo{
+        width: 60px;
       }
-      #outlook a{
-        padding: 0;
+      .signature{
+        width: 50px;
       }
-      .preheader{
-        display: none !important;
+      .header { border-top: 5px solid #243d6f; font-size: 16px }
+      .content { font-size: 18px }
+      .content p{ margin: 8px 0; line-height: 1.5 }
+      .content h1, .content h2, .content h3, .content h4{
+        margin: 8px 0 -4px;
+        font-weight: bold;
+        color: #243d6f;
       }
-      .borderless{ border: 0 !important; }
-      .contentArticle img{
-        display: block;
-        width: 100%;
+      .content img{ max-width: 100% }
+      .footer{
+        max-width: 480px;
+        font-size: 14px;
+        color: #9a9a9a;
       }
       .footer a{
-        color: inherit;
-        border-color: #bbb;
+        color: #5C5C5C;
       }
-      .footer p{
-        margin: 8px 0;
+      .social-media{
+        display: flex;
+        justify-content: space-around;
       }
     </style>
   </head>
-  <body style="background-color: #e8e8e8; margin: 0; padding: 0">
-    <span class="preheader" style="color: transparent; display: none !important; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">You really should read this one. I promise it'd be great</span>
-    <center>
-    <table bgcolor="#e8e8e8" border="0" cellspacing="0" cellpadding="0" align="center" id="bodyTable" height="100%" width="100%">
-      <tbody>
-        <tr>
-          <td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 50px;width: 100%;">
-            <!-- TEMPLATE START -->
-            <table style="width: 100%; max-width: 600px;" width="100%" border="0" cellpadding="0" cellspacing="0">
-              <tr>
-                <td>
-                  <!-- PREHEADER START -->
-                  <table align="center" style="width: 96.67%; max-width: 580px;" border="0" cellpadding="0" cellspacing="0">
-                    <tr>
-                      <td align="right" style="padding: 0 5px; font-size: 14px; font-weight: 300">
-                        <p><a href="#">View in browser</a></p>
-                      </td>
-                    </tr>
-                  </table>
-                  <!-- // PREHEADER END -->
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <!-- MAIN CONTENT START -->
-                  <table align="center" style="width: 96.67%; max-width: 580px; background-color: #ffffff; border-top: solid 4px #b30950" border="0" cellpadding="0" cellspacing="0">
-                    <tr>
-                      <td>
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td class="contentHeader" bgcolor="#f0f0f0" style="background-color: #f0f0f0; padding: 10px 20px">
-                              <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                              <tr>
-                                <td align="left">
-                                  <h3 style="margin: 0;">JR Blog</h3>
-                                </td>
-                                <td align="right">
-                                  <a href="https://josephrex.me" class="borderless"><img src="http://res.cloudinary.com/strich/image/upload/v1437944865/logo_xpfee9.png" width="40" alt="Visit website" /></a>
-                                </td>
-                              </tr>
-                              </table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="left" class="contentArticle" style="background-color: #ffffff; padding: 40px 20px;">
-                              <h1 style="margin: 0; padding-top: 20px; padding-bottom: 20px; font-weight: 300" align="center">Func d'eval</h1>
-                              <p>Hi Joseph,</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?”</p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td align="center" bgcolor="#f0f0f0" class="contentFooter" style="background-color: #f0f0f0; padding: 40px">
-                              <h2 style="margin-top: 0; font-weight: 300">Thanks for reading</h2>
-                              <table border="0" cellpadding="0" cellspacing="0">
-                                <tr>
-                                  <td>
-                                  <div><!--[if mso]>
-  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://twitter.com/intent/tweet/?text=Cohesion%20against%20coupling&url=http://josephrex.me/cohesion-against-coupling/&via=josephrexme" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" strokecolor="#06A4E0" fillcolor="#00ACED">
-    <w:anchorlock/>
-    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Share on Twitter</center>
-  </v:roundrect>
-<![endif]--><a href="https://twitter.com/intent/tweet/?text=Cohesion%20against%20coupling&url=http://josephrex.me/cohesion-against-coupling/&via=josephrexme"
-style="background-color:#00ACED;border:1px solid #06A4E0;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">Share on Twitter</a></div>
-                                  </td>
-                                </tr>
-                                <tr height="10"></tr>
-                                <tr>
-                                  <td>
-                                    <div><!--[if mso]>
-                                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://facebook.com/sharer/sharer.php?u=http://josephrex.me/cohesion-against-coupling/" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" strokecolor="#3E5991" fillcolor="#3B5998">
-                                            <w:anchorlock/>
-                                            <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Share on Facebook</center>
-                                          </v:roundrect>
-                                          <![endif]--><a href="https://facebook.com/sharer/sharer.php?u=http://josephrex.me/cohesion-against-coupling/"
-                                                         style="background-color:#3B5998;border:1px solid #3E5991;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">Share on Facebook</a></div>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                  <!-- // MAIN CONTENT END -->
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <!-- FOOTER START -->
-                  <table align="center" style="width: 96.67%; max-width: 580px;" border="0" cellpadding="0" cellspacing="0">
-                    <tr>
-                      <td class="footer" valign="top" align="center" style="padding-top: 20px; font-size: 14px; font-weight: 300; color: #777; line-height: 1.2">
-                        <p>This email was sent to joseph@strich.io</p>
-                        <p><a href="#">Manage your email preferences</a></p>
-                        <p>StrichIO 2600 E Kenwood Blvd, Milwaukee, WI 53202</p>
-                      </td>
-                    </tr>
-                  </table>
-                  <!-- // FOOTER END -->
-                </td>
-              </tr>
-            </table>
-            <!-- // TEMPLATE END -->
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <body style="background-color: #eaeaea; margin: 0; padding: 0">
+    <span class="preheader" style="color: transparent; display: none !important; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">A new edition of Joseph Rex' newsletter is here</span>
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+    <center style="padding-top: 20px; background-color: #eaeaea;">
+      <div class="header section">
+        <a href="https://josephrex.me"><img src="https://res.cloudinary.com/strich/image/upload/v1613959492/Joseph_Rex_logo_-_color_axxzrj.svg" alt="Joseph Rex logo" class="logo" width="60" /></a>
+        <div style="height: 15px"></div>
+        <h3>Hi Joseph,</h3>
+        <div style="height: 5px"></div>
+        <p style="color:#707070">Welcome to another edition of Joseph Rex newsletters</p>
+        <div style="height: 5px"></div>
+        <p><a href="{{ archive_url }}">view in a web browser</a></p>
+      </div>
+      <div style="height: 20px"></div>
+      <div class="content section" style="text-align: left;">
+        {{ message_content }}
+        <p>This is a sample content here</p>
+        <h3>Sample Header</h3>
+        <p>This is a sample content here and I want this to be long enough for multi-line so I can gauge the line height that may seem the most appropriate for it. What do you think?</p>
+        <img src="https://picsum.photos/800/200" alt="random image" />
+        <div style="height: 20px"></div>
+        <div>Joseph Rex</div>
+        <div style="height: 10px"></div>
+        <img src="https://res.cloudinary.com/strich/image/upload/v1613959498/Joseph_Rex_Signature_kiiqua.png" alt="Joseph Rex' signature" class="signature" width="50" />
+      </div>
+      <div class="footer">
+        <div style="height: 30px"></div>
+        <div class="social-media">
+          <a href="https://twitter.com/josephrexme">FOLLOW ME ON TWITTER</a>
+        </div>
+        <div style="height: 20px"></div>
+        <p>You are receiving this email because you subscribed to my newsletter. You may <strong><a href="{{ unsubscribe_url }}">unsubscribe</a></strong> or <strong><a href="{{ subscriber_preferences_url }}">update your profile preferences</a></strong>.</p>
+        <div style="height: 20px"></div>
+        <p>{{ address }}</p>
+        <div style="height: 30px"></div>
+      </div>
     </center>
   </body>
 </html>
